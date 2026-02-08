@@ -113,20 +113,41 @@ Example input:
   "MA_10": 330,
   "Pct_Change": 0.6
 }
-
-📁 Project Structure
-
 ```
+
+## 📁 Project Structure
+
+```Structure
 Tesla-Stock-Prediction/
-│
 ├── data/
-│   └── TSLA_Stock.csv
-│
+│   └── `TSLA_Stock.csv` (Raw datasets)
 ├── notebook/
-│   └── tesla_analysis.ipynb
-│   └── predict.ipynb
+│   └── `tesla_analysis.ipynb`
+│   └── `predict.ipynb`
 ├── model/
-│   └── tesla_price_model.pkl (Today Closing Prediction)
-│   └── future_price_model.pkl  (Tomorrow Closing Prediction)
-├── README.md
-└── requirements.txt
+│   └── `tesla_price_model.pkl` (Today Closing Prediction)
+│   └── `future_price_model.pkl`  (Tomorrow Closing Prediction)
+├── `README.md`
+└── `requirements.txt`
+```
+
+## 💻 Installation & Local Setup
+
+Follow these steps to run this project on your local machine.
+
+1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Vishnu-Codebase/tesla_stock_predition.git
+```
+
+2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3️⃣ Train the Model
+
+Run all cells in:
+```autohotkey
+tesla_analysis.ipynb
+```
