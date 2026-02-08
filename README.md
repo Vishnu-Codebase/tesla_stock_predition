@@ -117,7 +117,7 @@ Example input:
 
 ## 📁 Project Structure
 
-```Structure
+```
 Tesla-Stock-Prediction/
 ├── data/
 │   └── `TSLA_Stock.csv` (Raw datasets)
@@ -130,6 +130,31 @@ Tesla-Stock-Prediction/
 ├── `README.md`
 └── `requirements.txt`
 ```
+
+
+## ⚠️ Limitations
+
+- The model is trained using historical price data only and does not consider:
+    - Market news
+    - Company financial reports
+    - Global economic factors
+    - Investor sentiment
+- Linear Regression assumes a linear relationship, which may not fully capture complex stock market behavior.
+- Stock prices are highly volatile and unpredictable, so predictions may not always be accurate.
+- The dataset size is relatively small, which may limit model generalization.
+- The model is not suitable for real-time trading without further validation.
+
+## 🚀 Future Improvements
+
+- Implement advanced models such as:
+    - Random Forest
+    - XGBoost
+    - LSTM (Deep Learning)
+- Integrate real-time stock data using APIs (Yahoo Finance, Alpha Vantage).
+- Add sentiment analysis using news and social media data.
+- Improve feature engineering with more technical indicators (RSI, MACD, Bollinger Bands).
+- Deploy the model as a web application using Flask or Streamlit.
+- Perform hyperparameter tuning for better performance.
 
 ## 💻 Installation & Local Setup
 
