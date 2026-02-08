@@ -42,14 +42,14 @@ Joblib
 - Records: 254 rows
 - Features:
 
-| Column | Description |
-|--------|-------------|
-| Date | Trading date |
-| Open | Opening price |
-| High | Highest price |
-| Low | Lowest price |
-| Close | Closing price (Target) |
-| Volume | Trading volume |
+| Column   | Description               |
+|----------|---------------------------|
+| Date     | Trading date              |
+| Open     | Opening price             |
+| High     | Highest price             |
+| Low      | Lowest price              |
+| Close    | Closing price (Target)    |
+| Volume   | Trading volume            |
 
 ---
 
@@ -151,7 +151,7 @@ Run all cells in:
 ```autohotkey
 tesla_analysis.ipynb
 ```
-
+To get prediction today and tomorrow run this file
 ```autohotkey
-tesla_analysis.ipynb
+predict.ipynb
 ```
