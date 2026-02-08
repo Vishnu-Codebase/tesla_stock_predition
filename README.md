@@ -49,7 +49,7 @@ Joblib
 | High     | Highest price             |
 | Low      | Lowest price              |
 | Close    | Closing price (Target)    |
-| Volume   | Trading volume            |
+| Volume   | Trading volume             |
 
 ---
 
