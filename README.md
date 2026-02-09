@@ -120,15 +120,15 @@ Example input:
 ```
 Tesla-Stock-Prediction/
 ├── data/
-│   └── `TSLA_Stock.csv` (Raw datasets)
+│   └── TSLA_Stock.csv (Raw datasets)
 ├── notebook/
-│   └── `tesla_analysis.ipynb`
-│   └── `predict.ipynb`
-├── model/
-│   └── `tesla_price_model.pkl` (Today Closing Prediction)
-│   └── `future_price_model.pkl`  (Tomorrow Closing Prediction)
-├── `README.md`
-└── `requirements.txt`
+│   └── tesla_analysis.ipynb
+│   └── predict.ipynb
+├── models/
+│   └── tesla_price_model.pkl (Today Closing Prediction)
+│   └── future_price_model.pkl  (Tomorrow Closing Prediction)
+├── README.md
+└── requirements.txt
 ```
 
 
